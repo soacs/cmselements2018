@@ -1,0 +1,21 @@
+div {
+  display: block;
+  background: hotpink;
+  height: 500px;
+  color: black;
+  padding: 8px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  font-family: arial;
+  font-size: 12px;
+}
+ng-content {
+  background: green;
+}
+
+span {
+  height: 50px;
+}
+

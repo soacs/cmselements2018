@@ -1,0 +1,29 @@
+
+div {
+  display: block;
+  background: cadetblue;
+  height: 800px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  padding: 2px;
+  border: 2px solid goldenrod;
+  font-size: 12px;
+  font-family: Arial;
+  font-style: normal;
+}
+
+
+div #projectedContent {
+  display: block;
+  background: orange;
+  height:300px;
+  width: 80%;
+  font-size: 18px;
+  font-family: Arial;
+  font-style: italic;
+
+  align-items: center;
+  justify-content: center;
+}

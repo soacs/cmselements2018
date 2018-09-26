@@ -1,0 +1,25 @@
+div {
+  display:flex;
+  background: green;
+  color: black;
+  padding: 12px;
+  font-family: arial;
+  font-size: 14px;
+  height: 100px;
+  align-items: center;
+  align-content: space-around;
+  justify-content: space-around;
+  background: lightblue;
+  margin: 50px;
+  width: 60%;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  margin: 10px;
+}
+
+span {
+  width: 60%
+}

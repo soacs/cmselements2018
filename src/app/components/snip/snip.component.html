@@ -1,0 +1,12 @@
+<div>
+<div>
+ <form #f="ngForm">
+  <input type="text" name="animal" ngModel value="" />
+  <button (click)="addAnimal(f.value.animal)">Add Animal</button>
+</form>
+</div><br><br>
+  <span>
+    The content for the snip customer element <br><br> {{ content }}
+  </span>
+  <br>
+</div>
