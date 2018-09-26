@@ -1,8 +1,8 @@
-import { BrowserModule } from '@angular/platform-browser';
+import {BrowserModule} from '@angular/platform-browser';
 import {NgModule, CUSTOM_ELEMENTS_SCHEMA, Injector} from '@angular/core';
-import { FormsModule} from '@angular/forms';
-import { AppComponent } from './components/app/app.component';
-import { ChildComponent } from './components/child/child.component';
+import {FormsModule} from '@angular/forms';
+import {AppComponent} from './components/app/app.component';
+import {ChildComponent} from './components/child/child.component';
 import {createCustomElement} from '@angular/elements';
 import {SnipComponent} from './components/snip/snip.component';
 
@@ -17,8 +17,8 @@ import {SnipComponent} from './components/snip/snip.component';
     FormsModule
   ],
   providers: [],
-  schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
-  entryComponents: [ SnipComponent ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
+  entryComponents: [SnipComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule {
